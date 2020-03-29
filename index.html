@@ -6,7 +6,7 @@
   <title>Акция JAX скоро начнется</title>
 
   
-  <link rel="stylesheet" href="./css/style.min.3856b92f2f8bdfe3586b0d205f48e081cf3689064edb4abd0afdd4cc6fb1399c.css">
+  <link rel="stylesheet" href="./css/style.min.bd763ef97b1e94cbe87f5fa3526eeb90978d441df3ccfc7479d835665a3a252a.css">
 </head><body class="h-100">
     <header id="header" class="h-50 w-100 position-fixed"><div id="sky" class="h-100 w-100 position-absolute d-flex justify-content-center align-items-start">
   <img src="./images/sky.svg"
@@ -41,8 +41,7 @@
 
   
 
-  <h1 id="акция-скоро-начнется">Акция скоро начнется!</h1>
-<p>Сфотографируйте серийный номер купленного Вами оборудования, он пригодится для дальнейшей регистрации.</p>
+  <promo-start-widget params=""></promo-start-widget>
 
 
 
@@ -51,5 +50,18 @@
 
     <div id="bali" class="position-absolute">
       <img src="./images/bali.png">
-    </div></body>
+    </div>
+
+
+
+
+<script src="/js/app.min.d5f10f852b112a514a19f2b778eef5d2d1307878757f0a24539c051831cefaf8.js"></script>
+<script>
+  require.config({
+    baseUrl: './js',
+  });
+
+  require(['./js/promo.js'], function() {});
+</script>
+</body>
 </html>
